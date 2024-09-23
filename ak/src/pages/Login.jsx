@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import{auth} from '../firebaseConfig'
+import { db } from '../Firebase';
 import { signInWithEmailAndPassword } from "firebase/auth";
 import{ref,set} from 'firebase/database'
 import{Box,Button,Input,FormControl,Formlabel}from '@chakra-ui/react';

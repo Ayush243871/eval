@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { ref, set } from 'firebase/database';
-import { auth, db } from '../firebaseConfig';
+import { db } from '../Firebase';
 import { Box, Button, Input, FormControl, FormLabel, Checkbox } from '@chakra-ui/react';
 import { useNavigate } from 'react-router-dom';
 

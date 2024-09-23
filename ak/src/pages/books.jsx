@@ -1,7 +1,8 @@
 import React,{useState,useEffect,useContext} from "react";
 import{Box,Button,Input,SimpleGrid,Card,CardBody,Image,Text} from '@chakra-ui/react'
-import{Ref,onValue,query,orderByChild,startAt,endAt} from 'firebase/database'
-import{db} from '../firebaseCOnfig'
+import{refef,onValue,query,orderByChild} from 'firebase/database'
+import { db } from '../Firebase';
+
 import { AuthContext } from "./AuthContext";
 import { useNavigate } from "react-router-dom";
 

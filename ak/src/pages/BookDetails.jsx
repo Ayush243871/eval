@@ -1,7 +1,7 @@
 import React,{useState,useEffect,useContext} from "react";
-import{Box,Button,Image,Text} from '@chakra-ui/react'
-import{Ref,get} from 'firebase/database'
-import{db} from '../firebaseCOnfig'
+import{Box,Image,Text} from '@chakra-ui/react'
+import{ref,get} from 'firebase/database'
+import { db } from '../Firebase';
 import { AuthContext } from "./AuthContext"
 import {useParams,useNavigate} from 'react-router-dom'
 
